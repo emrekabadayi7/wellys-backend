@@ -1,14 +1,13 @@
 const config = {
   user: "sa",
-  password: "123",
-  server: "EMRE\\SQLEXPRESS",
-  database: "Wellys",
+  password: "Support1105",
+  server: "TOTAL-POS-TEST\\RMH",
+  database:"RMH",
   options: {
     trustedConnection: true,
     trustServerCertificate: true,
     enableArithAbort: true,
   },
-  port: 49172
 };
 
 module.exports = config;
