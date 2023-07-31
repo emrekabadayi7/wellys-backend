@@ -1,7 +1,7 @@
 const config = {
   user: "sa",
   password: "Support1105",
-  server: "10.1.1.146\\RMH",
+  server: "TOTAL-POS-TEST\\RMH",
   database:"RMH",
   options: {
     trustedConnection: true,
