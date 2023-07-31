@@ -18,8 +18,17 @@ app.use((req, res, next) => {
   next();
 });
 
+console.log("bunu gorebiliyor musun?")
+
 dboperations.getOrders().then(result => {
     console.log(result);
+})
+
+app.get("/", (req,res) => {
+
+    console.log("Bunu gor be lutfen be...")
+    res.send("ananin ami be.")
+
 })
 
 app.get("/daily", async (req, res) => {
